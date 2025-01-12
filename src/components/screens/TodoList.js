@@ -3,7 +3,7 @@ import { View, Text, TextInput, Button, FlatList, StyleSheet, TouchableOpacity, 
 import Icon from 'react-native-vector-icons/Ionicons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://192.168.1.3:8000/api/todos';
+const API_URL = 'http://192.168.1.23:3000/api/todos';
 
 export default function TodoList() {
   const [todos, setTodos] = useState([]);
